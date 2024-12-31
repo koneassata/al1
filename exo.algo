@@ -3,7 +3,7 @@ ALGORITHM
 VAR
      longueur, nombre_mots, nombre_voyelles
 BEGIN
-     print("Entrez une phrase qui se termine par un point:");
+     print("Entrez une phrase qui se termine par un point:")
     longueur = 0  
     nombre_mots = 0  
     nombre_voyelles = 0  
@@ -11,7 +11,7 @@ BEGIN
     en_mot = False
 
       while True:
-        caractere = input("Entrez un caractère: ");
+        caractere = input("Entrez un caractère: ")
         if caractere == ".":
             longueur += 1  
             if en_mot:  
